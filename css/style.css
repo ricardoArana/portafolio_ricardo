@@ -1,0 +1,60 @@
+body {
+    background-color: #E1F8FF;
+}
+header {
+    border-bottom: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+header > h1 {
+    margin: 0.3em auto 0em;
+    padding-left: 4.5em;
+    text-align: center;
+    font-size: 3em;
+    display: block;
+}
+
+header > #link {
+    margin: 3em 3em;
+    top: 20px;
+    width: 7em;
+    height: 5vh;
+    text-align: left;
+    float:right; 
+    clear:right;
+
+}
+header > #link > a {
+    text-decoration: none;
+    color: black;
+}
+
+header > #link > a:hover {
+    color: blue;
+}
+
+main {
+    padding: 0 15em;
+    margin-top: 13vh;
+}
+#presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#presentacion > img {
+    width: 8em;
+    height: 10em;
+}
+#presentacion > .parrafo {
+    margin-left: 5em;
+}
+#presentacion > p{
+    margin-left: 3em;
+    padding: 10em;
+    text-align: left;
+    top: 0;
+}
