@@ -52,9 +52,6 @@ main {
 #presentacion > .parrafo {
     margin-left: 5em;
 }
-#presentacion > p{
-    margin-left: 3em;
-    padding: 10em;
-    text-align: left;
-    top: 0;
+.parrafo > p{
+    font-size: x-large;
 }
