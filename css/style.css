@@ -81,8 +81,8 @@ main {
 	transition: .3s ease-in-out;
     padding-left: 3vw;
     padding-top: 5vh;
-    width: 12vw;
-    height: 23vh;
+    width: 175px;
+    height: 200px;
 }
 .imagen:hover > img {
 	-webkit-filter: blur(0);
@@ -224,7 +224,17 @@ main {
       left: 0%;
     }
   }
+  .testimonios {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    padding: 5%;
+  }
 
+  .testimonios > div > p {
+    margin: 5%;
+  }
+  
 footer{
   display: flex;
   background-color: rgba(225,248,255,1);
