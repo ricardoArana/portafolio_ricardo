@@ -253,14 +253,20 @@ main {
   }
   .testimonio {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-size: large;
     padding: 5%;
   }
 
   .testimonio > div > p {
-    margin: 5%;
-    width: 25vw;
+    padding: 10px;
+    width: 30vw;
+  }
+
+  .video > iframe{
+    width: 500px;
+    height: 360px;
   }
   
 #subir > p {
