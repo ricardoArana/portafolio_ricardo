@@ -97,6 +97,7 @@ main {
       justify-content: space-between;
   }
   .imagen {
+
       display: flex;
       justify-content: center;
   }
@@ -107,7 +108,7 @@ main {
     transition: .3s ease-in-out;
       padding-left: 3vw;
       padding-top: 5vh;
-      width: 175px;
+      width: 185px;
       height: 200px;
   }
   .imagen:hover > img {
@@ -142,7 +143,7 @@ main {
   margin: 10px;
 }
 .proyecto > p {
-  width: 37.5vw;
+  width: 50vw;
   padding: 30px;
   font-size: large;
 }
@@ -285,7 +286,7 @@ main {
 
   .testimonio > div > p {
     padding: 10px;
-    width: 30vw;
+    width: 40vw;
   }
 
   .video > iframe{
@@ -313,10 +314,19 @@ footer{
 }
 @media screen and (max-width: 850px) {
   #burger {
-    width: 100%;
+    width: 90%;
     display: none;
     flex-direction: column;
+
+  }
+  #cont_bur {
+    display: flex;
     background-color: rgb(92, 201, 252);
+  }
+  #cerrar {
+    width: 10%;
+    height: 30px;
+    display: flex;
   }
   #burger > div > a {
     text-decoration: none;
@@ -376,16 +386,20 @@ footer{
     padding: 10px;
     width: 100%;
   }
+  .video > iframe{
+    width: 100%;
+    height: auto;
+  }
   .proyecto {
     display: block;
     align-items: center;
     padding-top: 30px;
   }
   .proyecto > img {
-    width: 400px;
-    height: 300px;
+    margin: 0;
+    width: 100%;
+    height: 75%;
     border: solid 1px black;
-    margin-left: 20%;
   }
   .proyecto > p {
     width: 100%;
