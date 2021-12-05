@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto: Ricardo Romero Arana</title>
   <link rel="stylesheet" href="../css/style.css">
-  <script src="../js/script.js"></script>
+  <script src="../js/script.js" defer></script>
 </head>
 <body>
   <header>
@@ -32,11 +32,12 @@
     <div id="correo">
       <h1>Contacto:</h1>
       <h2>Puedes enviarme un correo:</h2>
-      <form >
-        <input class="text" type="text" size="30" placeholder="Tu nombre completo..." required> <br>
-        <input class="text" type="text" size="30" placeholder="Tu correo..." required> <br>
+      <form id="form">
+        <input name="nombre" class="text" type="text" maxlength="30" placeholder="Tu nombre completo..." required> <br>
+        <input name="email" class="text" type="text" size="30" placeholder="Tu correo..." required> <br>
         <textarea rows="8" cols="40" placeholder="Escribe tu mensaje..." required></textarea> <br>
-        <button type="submit">Enviar</button>
+        <button id="enviar" type="submit">Enviar</button>
+        <span>Debes rellenar todos los campos</span>
       </form>
     </div>
     <div id="redes_sociales">

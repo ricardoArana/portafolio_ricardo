@@ -61,6 +61,11 @@ header > #link > a:hover {
 #correo {
   width: 37.5vw;
 }
+form > span {
+  display: none;
+  color: rgb(144, 0, 0);
+  font-size: large;
+}
 #redes_sociales div{
   display: inline;
   height: 35px;
@@ -419,6 +424,8 @@ footer{
   #correo {
     width: 100%;
   }
+
+  
   #redes_sociales {
     margin-top: 50px;
   }
